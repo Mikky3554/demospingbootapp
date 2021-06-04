@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class welcomecontroller {
 
-	@GetMapping("/welcome")
+	@GetMapping("/")
 	public String welcome() {
 		return "First Jar Deployment";
 	}
