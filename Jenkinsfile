@@ -8,7 +8,7 @@ pipeline{
         stage("Git checkout")
         {
             steps{
-                git 'https://github.com/Mikky3554/LiveProject.git'
+                git 'https://github.com/Mikky3554/demospingbootapp.git'
             }
         }
         stage("Maven build")
