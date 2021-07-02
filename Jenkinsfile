@@ -12,7 +12,7 @@ pipeline{
         {
             steps{
                 sh "mvn clean package"
-                sh "mv /var/lib/jenkins/workspace/DeclarativePipeline/webapp/target/*.war /var/lib/jenkins/workspace/DeclarativePipeline/webapp/target/mywebapp01.war"
+           
                 
             }
         }
